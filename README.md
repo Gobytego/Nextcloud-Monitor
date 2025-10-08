@@ -19,6 +19,12 @@
 <br>pip install requests PyQt6
 
 <br>2. Create Configuration File
+
+<br>First on the server you will need to make a serverinfo token
+
+<br>  Most installs: sudo -E -u www-data php occ config:app:set serverinfo token --value f8g4b5n2m1j6h7d2
+<br>  snap install: nextcloud.occ config:app:set serverinfo token --value f8g4b5n2m1j6h7d2
+
 <br>Create a plain text file named ncmonitor.txt in the application's folder. This file must contain your Nextcloud Base URL and your NC-Token on separate lines:
 
 <br>Example
