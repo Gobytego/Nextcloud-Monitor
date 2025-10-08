@@ -412,7 +412,7 @@ class RefreshIntervalDialog(QDialog):
 # ==============================================================================
 
 class NextcloudMonitorApp(QMainWindow):
-    """Main application window for the Nextcloud Monitor GUI using PyQt6."""
+    """Main application window for the Nextcloud Monitor."""
     
     def __init__(self, initial_config, all_configs): 
         super().__init__()
