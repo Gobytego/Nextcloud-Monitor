@@ -32,6 +32,8 @@
 <br>https://my-private-cloud.org
 <br>f8g4b5n2m1j6h7d2
 
+<br>if you have multiple servers you can make multiple files: ncmonitor.server1.txt, ncmonitor_server2.txt, etc. just has to start with "ncmonitor" and end in ".txt"
+
 <br>3. Run the Monitor
 <br>Execute the Python script directly, or run the provided Windows executable:
 
