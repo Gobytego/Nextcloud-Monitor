@@ -22,8 +22,13 @@
 
 <br>First on the server you will need to make a serverinfo token
 
-<br>  Most installs: sudo -E -u www-data php occ config:app:set serverinfo token --value f8g4b5n2m1j6h7d2
-<br>  snap install: nextcloud.occ config:app:set serverinfo token --value f8g4b5n2m1j6h7d2
+<br>  Most installs: 
+<br>sudo -E -u www-data php occ config:app:set serverinfo token --value f8g4b5n2m1j6h7d2 <---obviously change this to your own password/passphrase
+
+<br>  snap install: 
+<br>nextcloud.occ config:app:set serverinfo token --value f8g4b5n2m1j6h7d2 <---obviously change this to your own password/passphrase
+
+<br> if you need a super secure passphrase you can use [gobytego passphrase generator](https://gobytego.com/pass.html)
 
 <br>Create a plain text file named ncmonitor.txt in the application's folder. This file must contain your Nextcloud Base URL and your NC-Token on separate lines:
 
